@@ -1,0 +1,180 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e7eaf6; /* first-color */
+  }
+  
+  /* Navbar */
+  nav {
+    background-color: #113f67; /* fourth-color */
+  }
+ /* Navbar Hover Effects */
+.nav-link {
+    color: white;
+    font-weight: bold;
+    text-decoration: none; 
+    transition: background-color 0.3s ease, color 0.3s ease; 
+  }
+  
+  .nav-link:hover {
+    background-color: #38598b; 
+    color: #e7eaf6;
+    border-radius: 4px; 
+    margin: auto;
+  }
+  
+  .navbar-brand {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .navbar-brand:hover {
+    text-decoration: none;
+  }
+
+  /* Logo Container Styling */
+.navbar-brand img {
+    max-width: 100%; 
+    height: auto; 
+    width: 40px; 
+    border-radius: 8px; 
+    border: 2px solid #113f67;
+    transition: transform 0.3s ease; 
+  }
+  
+  /* Hover Effect for Logo */
+  .navbar-brand img:hover {
+    transform: scale(1.1); 
+    opacity: 0.9; 
+  }
+  
+  /*Positioning */
+  .navbar-brand {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+  }
+  
+  /* Header */
+  header {
+    text-align: center;
+    padding: 1em;
+    background-color: #38598b; /* third-color */
+    color: white;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  /* Section Headers */
+  h2 {
+    background-color: #38598b; /* third-color */
+    color: white;
+    padding: 0.5em;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  /* Tables */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #a2a8d3; /* second-color */
+    border-radius: 8px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  thead {
+    background-color: #38598b; /* third-color */
+    color: white;
+    border-radius: 8px;
+  }
+  
+  tbody tr {
+    background-color: #a2a8d3; /* second-color */
+  }
+  
+  tbody tr:hover {
+    background-color: #d3d9f5; 
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Buttons */
+  button {
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 12px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  button.confirm {
+    background-color: #28a745;
+  }
+  
+  button.cancel {
+    background-color: #dc3545;
+    margin-top: 5px;
+  }
+  
+  button.view-products {
+    background-color: #17a2b8;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+    transition: opacity 0.3s ease;
+  }
+  
+  /* Dropdown (Notes) */
+  .form-select {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: #fff;
+    font-size: 14px;
+  }
+  
+  .form-select:hover {
+    background-color: #f7f9fc;
+    border-color: #bbb;
+  }
+  
+  /* Modal */
+  .modal-content {
+    background-color: #e7eaf6; /* first-color */
+    border-radius: 8px;
+  }
+  
+  .modal-header {
+    background-color: #38598b; /* third-color */
+    color: white;
+    border-bottom: none;
+  }
+  
+  .modal-footer {
+    background-color: #a2a8d3; /* second-color */
+    border-top: none;
+    text-align: right;
+  }
+  
+  .img-thumbnail {
+    border: 2px solid #113f67; /* fourth-color */
+    border-radius: 8px;
+    margin-bottom: 8px;
+  }
+  
+  /* Hover Effects */
+  button.view-products:hover {
+    background-color: #138496; 
+  }
